@@ -21,6 +21,7 @@ interface BottomNavigationProps {
   className?: string;
   items?: NavigationItem[];
   activeTab?: defaultActive;
+  defaultActive?: string;
 }
 
 const BottomNavigation: React.FC<BottomNavigationProps> = ({
